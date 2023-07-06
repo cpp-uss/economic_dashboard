@@ -40,32 +40,32 @@ st.write(' ')
 
 
 def fechas_1(grafico):
-    grafico.update_xaxes(
-        rangeselector=dict(
-            buttons=list([
-                dict(count=1, label="1m", step="month", stepmode="backward"),
-                dict(count=6, label="6m", step="month", stepmode="backward"),
-                dict(count=1, label="YTD", step="year", stepmode="todate"),
-                dict(count=1, label="1A", step="year", stepmode="backward"),
-                dict(step="all")
-            ])
-        )
-    )
-    grafico.update_yaxes(rangemode="tozero")
+   # grafico.update_xaxes(
+    #    rangeselector=dict(
+    #        buttons=list([
+    #            dict(count=1, label="1m", step="month", stepmode="backward"),
+    #            dict(count=6, label="6m", step="month", stepmode="backward"),
+    #            dict(count=1, label="YTD", step="year", stepmode="todate"),
+    #            dict(count=1, label="1A", step="year", stepmode="backward"),
+    #            dict(step="all")
+    #        ])
+    #    )
+    #)
+    #grafico.update_yaxes(rangemode="tozero")
     return grafico
 
 def fechas_2(grafico):
-    grafico.update_xaxes(
-        rangeselector=dict(
-            buttons=list([
-                dict(count=3, label="3A", step="year", stepmode="backward"),
-                dict(count=5, label="5A", step="year", stepmode="backward"),
-                dict(count=10, label="10A", step="year", stepmode="backward"),
-                dict(step="all")
-            ])
-        )
-    )
-    grafico.update_yaxes(rangemode="tozero")
+    #grafico.update_xaxes(
+    #    rangeselector=dict(
+    #        buttons=list([
+    #            dict(count=3, label="3A", step="year", stepmode="backward"),
+    #            dict(count=5, label="5A", step="year", stepmode="backward"),
+    #            dict(count=10, label="10A", step="year", stepmode="backward"),
+    #            dict(step="all")
+    #        ])
+    #    )
+    #)
+    #grafico.update_yaxes(rangemode="tozero")
     return grafico
 
 def eje_porcentaje_2(grafico):
