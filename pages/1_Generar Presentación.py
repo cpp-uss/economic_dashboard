@@ -365,8 +365,8 @@ if sub1:
                 
                 informalidad2=data3[(data3["CATEGORIA2"]=="INFORMALIDAD")&~(data3["NOMBRE_1"]=="Tasa de informalidad Nacional")]
                 
-                ult_informalidad_h=informalidad2[informalidad2["NOMBRE_1"]=="Tasa de informalidad (H)"]["VALOR"].iloc[-1]    
-                ult_informalidad_m=informalidad2[informalidad2["NOMBRE_1"]=="Tasa de informalidad (M)"]["VALOR"].iloc[-1]    
+                ult_informalidad_h=informalidad2[informalidad2["NOMBRE_1"]=="Tasa de informalidad Hombres"]["VALOR"].iloc[-1]    
+                ult_informalidad_m=informalidad2[informalidad2["NOMBRE_1"]=="Tasa de informalidad Mujeres"]["VALOR"].iloc[-1]    
                 
                 informalidad2["SERIE"]=informalidad2["NOMBRE_2"]
                 informalidad2=informalidad2.sort_values(by="PERIODO")
