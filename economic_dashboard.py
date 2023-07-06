@@ -351,7 +351,7 @@ with tab1:
                 des_prod_bienes=fechas_2(des_prod_bienes)
                 des_prod_bienes=eje_porcentaje(des_prod_bienes)
                 
-                st.plotly_chart(des_prod_bienes, theme="streamlit", use_container_width=True)
+                st.plotly_chart(des_prod_bienes, use_container_width=True)
                
             
                 des_componentes=gen_bar(des_componentes,appointment,"Componentes principales de la variación anual del IMACEC")
